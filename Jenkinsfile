@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install' # creates node_modules/ just like /target/*.war
+                sh 'npm install' // creates node_modules/ just like /target/*.war
             }
         }
     }
